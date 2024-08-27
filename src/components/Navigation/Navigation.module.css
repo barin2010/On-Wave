@@ -1,0 +1,7 @@
+.navigation {
+  background-color: var(--brown-light);
+}
+.wrapper {
+  padding: 20px 0;
+  display: flex;
+}

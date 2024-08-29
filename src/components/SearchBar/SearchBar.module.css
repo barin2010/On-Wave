@@ -1,0 +1,22 @@
+.searchBar {
+  display: flex;
+}
+
+.searchButton {
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+}
+.searchButton img {
+  display: flex;
+}
+.searchInput {
+  max-width: 80px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+@media (min-width: 1280px) {
+  .searchInput {
+    max-width: 250px;
+  }
+}

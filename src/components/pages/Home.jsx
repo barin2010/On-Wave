@@ -1,12 +1,12 @@
-import Header from 'components/Header/Header';
-import Navigation from 'components/Navigation/Navigation';
+import Arrivals from 'components/Arrivals/Arrivals';
+import SliderOne from 'components/SliderOne/SliderOne';
 import React from 'react';
 
 const Home = () => {
   return (
     <div>
-      <Navigation />
-      <Header />
+      <SliderOne />
+      <Arrivals />
     </div>
   );
 };

@@ -35,6 +35,7 @@
   --primary-font: 'Montserrat';
 
   /* color */
+  --white: #ffffff;
   --black: #000;
   --brown-dark: #35312d;
   --brown-light: #f8f1ea;
@@ -58,4 +59,17 @@ body {
   max-width: 767px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1279px;
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    padding: 0 100px;
+  }
 }

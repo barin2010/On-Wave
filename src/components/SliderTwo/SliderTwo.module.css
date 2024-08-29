@@ -1,0 +1,69 @@
+.sliderContainer {
+  width: 100%;
+  margin-bottom: 73px;
+}
+
+.card {
+  padding-bottom: 30px;
+  max-width: 299px;
+  border: 1px solid var(--brown-light);
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.lable {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--brown-light);
+  margin-right: auto;
+
+  padding: 4px 5.5px;
+  width: 60px;
+  background-color: var(--tomato-light);
+}
+.cardImg {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.descr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.name {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.prise {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.customDots {
+  bottom: -41px;
+  right: 50%;
+  display: flex !important;
+  align-items: center;
+  position: absolute;
+  transform: translateX(50%);
+}
+
+.customDot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--dark-dot-inactive);
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.customDotActive {
+  background-color: var(--tomato-light);
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 224px !important;
+  }
+}

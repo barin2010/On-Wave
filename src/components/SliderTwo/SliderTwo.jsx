@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import PrevArrow from 'components/Arrows/PrevArrow';
+import NextArrow from 'components/Arrows/NextArrow ';
 import css from './SliderTwo.module.css';
 
 import gitar1 from '../../images/arrivals/gitar1.jpg';
@@ -18,6 +20,9 @@ const SliderTwo = () => {
     autoplaySpeed: 2000,
     dots: true,
     arrows: false,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+
     dotsClass: css.customDots,
     beforeChange: (current, next) => setActiveSlide(next),
     customPaging: i => (
@@ -29,27 +34,33 @@ const SliderTwo = () => {
     ),
     responsive: [
       {
-        breakpoint: 1280, // При ширине экрана от 1280px и выше
-        settings: {
-          slidesToShow: 5, // Показываем 5 картинок
-          arrows: true, // Показываем стрелки
-          dots: false, // Скрываем точки
-        },
-      },
-      {
-        breakpoint: 768, // При ширине экрана от 768px до 1279px
-        settings: {
-          slidesToShow: 3, // Показываем 3 картинки
-          arrows: false, // Скрываем стрелки
-          dots: true, // Показываем точки
-        },
-      },
-      {
-        breakpoint: 320, // При ширине экрана от 320px до 767px
+        breakpoint: 767, // При ширине экрана от 320px до 767px
         settings: {
           slidesToShow: 1, // Показываем 1 картинку
           arrows: false, // Скрываем стрелки
           dots: true, // Показываем точки
+        },
+      },
+
+      {
+        breakpoint: 1279, // При ширине экрана от 768px до 1279px
+        settings: {
+          slidesToShow: 3, // Показываем 3 картинки
+          arrows: true,
+          nextArrow: <NextArrow />,
+          prevArrow: <PrevArrow />,
+          // Скрываем стрелки
+          dots: false, // Показываем точки
+        },
+      },
+      {
+        breakpoint: 2560, // При ширине экрана от 1280px и выше
+        settings: {
+          slidesToShow: 5, // Показываем 5 картинок
+          arrows: true,
+          nextArrow: <NextArrow />,
+          prevArrow: <PrevArrow />, // Скрываем стрелки // Показываем стрелки
+          dots: false, // Скрываем точки
         },
       },
     ],

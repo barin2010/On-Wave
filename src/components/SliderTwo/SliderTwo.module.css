@@ -1,9 +1,15 @@
-.sliderContainer {
-  width: 100%;
+.slider-container {
+  width: clamp(20rem, 2.857rem + 85.714vi, 80rem);
   margin-bottom: 73px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding-bottom: 30px;
   max-width: 299px;
   border: 1px solid var(--brown-light);
@@ -21,7 +27,8 @@
   background-color: var(--tomato-light);
 }
 .cardImg {
-  width: 100%;
+  width: 200px;
+
   margin-bottom: 20px;
 }
 .descr {
@@ -42,12 +49,12 @@
   text-align: center;
 }
 .customDots {
-  bottom: -41px;
-  right: 50%;
   display: flex !important;
-  align-items: center;
-  position: absolute;
-  transform: translateX(50%);
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .customDot {
@@ -65,5 +72,34 @@
 @media (min-width: 768px) {
   .card {
     width: 224px !important;
+    margin-bottom: 41px;
+  }
+  .cardImg {
+    width: 204px;
+  }
+  .customNextArrow,
+  .customPrevArrow {
+    width: 40px;
+    height: 40px;
+    border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 110;
+    position: absolute;
+  }
+
+  .customNextArrow {
+    right: 10px;
+  }
+
+  .customPrevArrow {
+    left: 10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card {
+    margin-bottom: 50px;
   }
 }

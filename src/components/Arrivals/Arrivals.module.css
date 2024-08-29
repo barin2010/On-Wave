@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .wrapper {
-  width: 100%;
+  width: clamp(20rem, 0rem + 100vi, 90rem);
 }
 .titleWrapper {
   margin-bottom: 40px;
@@ -22,7 +22,10 @@
 .button {
   font-size: 16px;
   text-transform: uppercase;
-  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   padding: 10px 20px;
   border: 2px solid var(--black);
@@ -34,4 +37,21 @@
   color: var(--white);
   background-color: var(--tomato-light);
   border-color: var(--tomato-light);
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 0 33px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    padding: 0 100px;
+  }
+  .button {
+    font-size: 18px;
+    padding: 15px 50px;
+    width: 227px;
+  }
 }

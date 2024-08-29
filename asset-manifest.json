@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/On-Wave/static/css/main.1ffb5482.css",
+    "main.css": "/On-Wave/static/css/main.6d554c18.css",
     "main.js": "/On-Wave/static/js/main.5798ba16.js",
     "static/media/header_desc1@2x.jpg": "/On-Wave/static/media/header_desc1@2x.d9574a4a2249aa3f8cc4.jpg",
     "static/media/header_desc2@2x.jpg": "/On-Wave/static/media/header_desc2@2x.d90c59965343fbc6594c.jpg",
@@ -37,11 +37,11 @@
     "static/media/profile.svg": "/On-Wave/static/media/profile.73aeb6dd7f7f6073cae6e02c78a13ed5.svg",
     "static/media/cross.svg": "/On-Wave/static/media/cross.5c81e52873eb9972ca225d584189ced1.svg",
     "static/media/burger.svg": "/On-Wave/static/media/burger.b27ae2754d486e922e8414681ef743b6.svg",
-    "main.1ffb5482.css.map": "/On-Wave/static/css/main.1ffb5482.css.map",
+    "main.6d554c18.css.map": "/On-Wave/static/css/main.6d554c18.css.map",
     "main.5798ba16.js.map": "/On-Wave/static/js/main.5798ba16.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ffb5482.css",
+    "static/css/main.6d554c18.css",
     "static/js/main.5798ba16.js"
   ]
 }

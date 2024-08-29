@@ -1,5 +1,6 @@
 .sliderWrapper {
-  width: 100%;
+  /* width: 100%; */
+  width: clamp(20rem, 0rem + 100vi, 90rem);
   margin: 0 auto;
   align-self: center;
 }

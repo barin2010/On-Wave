@@ -1,20 +1,47 @@
 {
   "files": {
-    "main.css": "/On-Wave/static/css/main.1ef857b2.css",
-    "main.js": "/On-Wave/static/js/main.d1b4d96d.js",
+    "main.css": "/On-Wave/static/css/main.1ffb5482.css",
+    "main.js": "/On-Wave/static/js/main.5798ba16.js",
+    "static/media/header_desc1@2x.jpg": "/On-Wave/static/media/header_desc1@2x.d9574a4a2249aa3f8cc4.jpg",
+    "static/media/header_desc2@2x.jpg": "/On-Wave/static/media/header_desc2@2x.d90c59965343fbc6594c.jpg",
+    "static/media/header_desc3@2x.jpg": "/On-Wave/static/media/header_desc3@2x.b76831cc25ea35a81190.jpg",
+    "static/media/header_tablet1@2x.jpg": "/On-Wave/static/media/header_tablet1@2x.8254c1b28848ec430a46.jpg",
+    "static/media/header_desc1.jpg": "/On-Wave/static/media/header_desc1.05b14a706c69d4fc29e1.jpg",
+    "static/media/header_desc2.jpg": "/On-Wave/static/media/header_desc2.8b1bd59e0b36954565bb.jpg",
+    "static/media/header_desc3.jpg": "/On-Wave/static/media/header_desc3.e1d852acbde94efe4631.jpg",
+    "static/media/header_tablet1.jpg": "/On-Wave/static/media/header_tablet1.2d632ec280f90b3083ee.jpg",
+    "static/media/gitar1@3x.jpg": "/On-Wave/static/media/gitar1@3x.8e4f477f8ecb5defd69e.jpg",
     "static/media/Montserrat-Bold.woff": "/On-Wave/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff",
     "static/media/Montserrat-Medium.woff": "/On-Wave/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff",
     "static/media/Montserrat-SemiBold.woff": "/On-Wave/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff",
+    "static/media/header_mob1.jpg": "/On-Wave/static/media/header_mob1.1c5a544b53164edca163.jpg",
+    "static/media/gitar1@2x.jpg": "/On-Wave/static/media/gitar1@2x.96b006dc5362feb564fa.jpg",
     "static/media/Montserrat-Bold.woff2": "/On-Wave/static/media/Montserrat-Bold.cfceaf4e74789fc9df24.woff2",
     "static/media/Montserrat-Medium.woff2": "/On-Wave/static/media/Montserrat-Medium.d6bbb7c3c86aa8edcd0a.woff2",
     "static/media/Montserrat-SemiBold.woff2": "/On-Wave/static/media/Montserrat-SemiBold.1d679c8257a6a9caa9bd.woff2",
+    "static/media/prev.svg": "/On-Wave/static/media/prev.90e2da4783bd997151547b1fb4543254.svg",
+    "static/media/header_tablet3.jpg": "/On-Wave/static/media/header_tablet3.35a7c80866968c0c6953.jpg",
+    "static/media/header_tablet3@2x.jpg": "/On-Wave/static/media/header_tablet3@2x.4c4735968fe05838d80e.jpg",
+    "static/media/header_tablet2@2x.jpg": "/On-Wave/static/media/header_tablet2@2x.575e86197aa88b8f739d.jpg",
+    "static/media/header_tablet2.jpg": "/On-Wave/static/media/header_tablet2.41abebec20638f577f9e.jpg",
+    "static/media/gitar1.jpg": "/On-Wave/static/media/gitar1.f8a493b93d3354a9af90.jpg",
+    "static/media/header_mob2.jpg": "/On-Wave/static/media/header_mob2.33d1b67834f2ab40cb50.jpg",
+    "static/media/header_mob3.jpg": "/On-Wave/static/media/header_mob3.1271ace71d0cb5065419.jpg",
     "static/media/logo_mob.svg": "/On-Wave/static/media/logo_mob.f0df6fab71c48513fb44b6fb8037a3fa.svg",
+    "static/media/slick.svg": "/On-Wave/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/On-Wave/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/On-Wave/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/On-Wave/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/search.svg": "/On-Wave/static/media/search.c3435cdfe71eff3da91760c9d5f9ef0e.svg",
     "index.html": "/On-Wave/index.html",
-    "main.1ef857b2.css.map": "/On-Wave/static/css/main.1ef857b2.css.map",
-    "main.d1b4d96d.js.map": "/On-Wave/static/js/main.d1b4d96d.js.map"
+    "static/media/profile.svg": "/On-Wave/static/media/profile.73aeb6dd7f7f6073cae6e02c78a13ed5.svg",
+    "static/media/cross.svg": "/On-Wave/static/media/cross.5c81e52873eb9972ca225d584189ced1.svg",
+    "static/media/burger.svg": "/On-Wave/static/media/burger.b27ae2754d486e922e8414681ef743b6.svg",
+    "main.1ffb5482.css.map": "/On-Wave/static/css/main.1ffb5482.css.map",
+    "main.5798ba16.js.map": "/On-Wave/static/js/main.5798ba16.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ef857b2.css",
-    "static/js/main.d1b4d96d.js"
+    "static/css/main.1ffb5482.css",
+    "static/js/main.5798ba16.js"
   ]
 }

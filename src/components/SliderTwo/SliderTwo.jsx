@@ -9,7 +9,6 @@ import css from './SliderTwo.module.css';
 import cardsData from '../Card/cardsData.json';
 import Card from 'components/Card/Card';
 
-
 const SliderTwo = () => {
   const [activeSlide, setActiveSlide] = useState(0);
 
@@ -43,7 +42,7 @@ const SliderTwo = () => {
       },
 
       {
-        breakpoint: 1279,
+        breakpoint: 1440,
         settings: {
           slidesToShow: 3,
           arrows: true,

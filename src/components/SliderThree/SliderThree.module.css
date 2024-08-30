@@ -1,5 +1,6 @@
 .sliderContainer {
-  width: 100%;
+  /* width: 100%; */
+  width: clamp(20rem, 2.857rem + 85.714vi, 80rem);
   padding: 0 43.5px;
   margin-bottom: auto;
 }
@@ -33,6 +34,7 @@
 @media (min-width: 768px) {
   .sliderContainer {
     padding: 0 27px;
+    width: clamp(48rem, 0rem + 100vi, 90rem);
   }
   .customNextArrow,
   .customPrevArrow {
@@ -56,6 +58,7 @@
 }
 @media (min-width: 1440px) {
   .sliderContainer {
+    width: clamp(48rem, 0rem + 100vi, 90rem);
     padding: 0 100px;
   }
   .customNextArrow {

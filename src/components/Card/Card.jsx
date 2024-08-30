@@ -28,6 +28,7 @@ const Card = ({ label, name, price, images, quantity }) => {
       </div>
       <img
         className={css.cardImg}
+        width="200"
         srcSet={`${getImagePath(images['1x'])} 1x, ${getImagePath(
           images['2x']
         )} 2x, ${getImagePath(images['3x'])} 3x`}

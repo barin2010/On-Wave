@@ -63,7 +63,7 @@ const SliderThree = () => {
       {
         breakpoint: 2560,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 9,
           arrows: true,
           nextArrow: <NextArrow />,
           prevArrow: <PrevArrow />,

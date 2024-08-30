@@ -53,12 +53,14 @@ const SliderOne = () => {
         <div className={css.wrapper}>
           <picture>
             <source
+              width="1440"
               className={css.headerImg}
-              media="(min-width:1280px )"
+              media="(min-width:1440px )"
               srcSet={`${header_desc1} 1x, ${header_desc1_2x} 2x`}
             />
 
             <source
+              width="768"
               className={css.headerImg}
               media="(min-width:768px)"
               srcSet={`${header_tablet1} 1x, ${header_tablet_2x} 2x`}
@@ -83,18 +85,21 @@ const SliderOne = () => {
         <div className={css.wrapper}>
           <picture>
             <source
+              width="1440"
               className={css.headerImg}
-              media="(min-width:1280px )"
+              media="(min-width:1440px )"
               srcSet={`${header_desc2} 1x, ${header_desc2_2x} 2x`}
             />
 
             <source
+              width="768"
               className={css.headerImg}
               media="(min-width:768px)"
               srcSet={`${header_tablet2} 1x, ${header_tablet2_2x} 2x`}
             />
 
             <img
+              width="320"
               className={css.headerImg}
               srcSet={`${header_mobile2} 1x, ${header_mobile2_2x} 2x`}
               alt="header"
@@ -112,18 +117,21 @@ const SliderOne = () => {
         <div className={css.wrapper}>
           <picture>
             <source
+              width="1440"
               className={css.headerImg}
-              media="(min-width:1280px )"
+              media="(min-width:1440px )"
               srcSet={`${header_desc3} 1x, ${header_desc3_2x} 2x`}
             />
 
             <source
+              width="768"
               className={css.headerImg}
               media="(min-width:768px)"
               srcSet={`${header_tablet3} 1x, ${header_tablet3_2x} 2x`}
             />
 
             <img
+              width="320"
               className={css.headerImg}
               srcSet={`${header_mobile3} 1x, ${header_mobile3_2x} 2x`}
               alt="header"

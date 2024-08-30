@@ -2,19 +2,19 @@ import React, { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { nanoid } from 'nanoid';
 import PrevArrow from 'components/Arrows/PrevArrow';
 import NextArrow from 'components/Arrows/NextArrow ';
 import css from './SliderTwo.module.css';
+import cardsData from '../Card/cardsData.json';
+import Card from 'components/Card/Card';
 
-import gitar1 from '../../images/arrivals/gitar1.jpg';
-import gitar1_2x from '../../images/arrivals/gitar1@2x.jpg';
-import gitar1_3x from '../../images/arrivals/gitar1@3x.jpg';
 
 const SliderTwo = () => {
   const [activeSlide, setActiveSlide] = useState(0);
 
   const settings = {
-    slidesToShow: 1, // Для маленьких экранов по умолчанию показываем 1 картинку
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -34,33 +34,33 @@ const SliderTwo = () => {
     ),
     responsive: [
       {
-        breakpoint: 767, // При ширине экрана от 320px до 767px
+        breakpoint: 767,
         settings: {
-          slidesToShow: 1, // Показываем 1 картинку
-          arrows: false, // Скрываем стрелки
-          dots: true, // Показываем точки
+          slidesToShow: 1,
+          arrows: false,
+          dots: true,
         },
       },
 
       {
-        breakpoint: 1279, // При ширине экрана от 768px до 1279px
+        breakpoint: 1279,
         settings: {
-          slidesToShow: 3, // Показываем 3 картинки
+          slidesToShow: 3,
           arrows: true,
           nextArrow: <NextArrow />,
           prevArrow: <PrevArrow />,
-          // Скрываем стрелки
-          dots: false, // Показываем точки
+
+          dots: false,
         },
       },
       {
-        breakpoint: 2560, // При ширине экрана от 1280px и выше
+        breakpoint: 2560,
         settings: {
-          slidesToShow: 5, // Показываем 5 картинок
+          slidesToShow: 5,
           arrows: true,
           nextArrow: <NextArrow />,
-          prevArrow: <PrevArrow />, // Скрываем стрелки // Показываем стрелки
-          dots: false, // Скрываем точки
+          prevArrow: <PrevArrow />,
+          dots: false,
         },
       },
     ],
@@ -68,81 +68,16 @@ const SliderTwo = () => {
   return (
     <div className={css.sliderContainer}>
       <Slider {...settings}>
-        <div className={css.card}>
-          <div className={css.lable}>
-            <p>in stock</p>
-          </div>
-          <img
-            className={css.cardImg}
-            srcSet={`${gitar1} 1x, ${gitar1_2x} 2x, ${gitar1_3x} 3x`}
-            src={gitar1}
-            alt="gitar"
+        {cardsData.map(card => (
+          <Card
+            key={nanoid()}
+            name={card.name}
+            price={card.price}
+            images={card.images}
+            label={card.label}
+            quantity={card.quantity}
           />
-          <div className={css.descr}>
-            <p className={css.name}>Hagstrom Alvar Limited Edition</p>
-            <p className={css.prise}>€2.990,00</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.lable}>
-            <p>in stock</p>
-          </div>
-          <img
-            className={css.cardImg}
-            srcSet={`${gitar1} 1x, ${gitar1_2x} 2x, ${gitar1_3x} 3x`}
-            src={gitar1}
-            alt="gitar"
-          />
-          <div className={css.descr}>
-            <p className={css.name}>Hagstrom Alvar Limited Edition</p>
-            <p className={css.prise}>€2.990,00</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.lable}>
-            <p>in stock</p>
-          </div>
-          <img
-            className={css.cardImg}
-            srcSet={`${gitar1} 1x, ${gitar1_2x} 2x, ${gitar1_3x} 3x`}
-            src={gitar1}
-            alt="gitar"
-          />
-          <div className={css.descr}>
-            <p className={css.name}>Hagstrom Alvar Limited Edition</p>
-            <p className={css.prise}>€2.990,00</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.lable}>
-            <p>in stock</p>
-          </div>
-          <img
-            className={css.cardImg}
-            srcSet={`${gitar1} 1x, ${gitar1_2x} 2x, ${gitar1_3x} 3x`}
-            src={gitar1}
-            alt="gitar"
-          />
-          <div className={css.descr}>
-            <p className={css.name}>Hagstrom Alvar Limited Edition</p>
-            <p className={css.prise}>€2.990,00</p>
-          </div>
-        </div>
-        <div className={css.card}>
-          <div className={css.lable}>
-            <p>in stock</p>
-          </div>
-          <img
-            className={css.cardImg}
-            srcSet={`${gitar1} 1x, ${gitar1_2x} 2x, ${gitar1_3x} 3x`}
-            src={gitar1}
-            alt="gitar"
-          />
-          <div className={css.descr}>
-            <p className={css.name}>Hagstrom Alvar Limited Edition</p>
-            <p className={css.prise}>€2.990,00</p>
-          </div>
-        </div>
+        ))}
       </Slider>
     </div>
   );

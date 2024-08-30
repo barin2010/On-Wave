@@ -1,0 +1,144 @@
+.footer {
+  background-color: var(--brown-dark);
+}
+
+.wrapper {
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    'a a a a'
+    'b c c c'
+    'd d d d';
+}
+.logo {
+  grid-area: a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.navigation {
+  grid-area: b;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.navigationItem {
+  font-size: 16px;
+  color: var(--brown-light);
+}
+.navigationItem:hover,
+.navigationItem:focus {
+  color: var(--tomato-light);
+}
+.title {
+  font-size: 20px;
+  color: var(--brown-light);
+}
+.contacts {
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+  justify-content: center;
+
+  margin-bottom: 49px;
+}
+.socialList {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.socialItem a:hover .socialIcon path,
+.socialItem a:focus .socialIcon path {
+  fill: var(--tomato-light);
+}
+.socialItem a:hover .socialIconStroke path,
+.socialItem a:focus .socialIconStroke path {
+  stroke: var(--tomato-light);
+}
+.contactTel {
+  font-size: 20px;
+  color: var(--brown-light);
+}
+.copyright {
+  grid-area: d;
+}
+
+.copyrightText {
+  font-size: 12px;
+  text-align: center;
+  color: var(--brown-light);
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding-top: 52px;
+    padding: 52px 8px 20px 8px;
+
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+      'a a . b . . c c'
+      '. . . b . . c c'
+      'd d d d d d d d';
+  }
+  .copyrightText {
+    font-size: 14px;
+  }
+  .contacts {
+    gap: 0;
+    margin-bottom: 42px;
+    align-items: flex-start;
+  }
+  .contactsTitle {
+    margin-bottom: 26px;
+  }
+  .socialList {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+    padding: 70px 30px 20px 30px;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      'a a . . . . . . . c c c'
+      'b b . . . . . . . c c c'
+      'b b . . . . . . . c c c'
+      'd d d d d d d d d d d d';
+  }
+  .logo {
+    margin-bottom: 35px;
+  }
+  .navigationItem {
+    font-size: 20px;
+  }
+  .contactsTitle {
+    margin-bottom: 48px;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .socialList {
+    margin-bottom: 65px;
+    gap: 45px;
+  }
+  .socialIcon,
+  .socialIconStroke {
+    height: 30px;
+  }
+  .contactTel {
+    font-size: 26px;
+  }
+  .copyrightText {
+    font-size: 14px;
+  }
+}

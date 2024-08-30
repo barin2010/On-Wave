@@ -3,51 +3,9 @@
   margin-bottom: 73px;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
 
-.card {
-  display: flex !important;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 30px;
-  max-width: 299px;
-  border: 1px solid var(--brown-light);
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-.lable {
-  font-size: 10px;
-  text-transform: uppercase;
-  color: var(--brown-light);
-  margin-right: auto;
-
-  padding: 4px 5.5px;
-  width: 60px;
-  background-color: var(--tomato-light);
-}
-.cardImg {
-  width: 200px;
-
-  margin-bottom: 20px;
-}
-.descr {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-.name {
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-}
-.prise {
-  font-weight: 700;
-  font-size: 24px;
-  text-align: center;
-}
 .customDots {
   display: flex !important;
   justify-content: center;
@@ -70,13 +28,6 @@
 }
 
 @media (min-width: 768px) {
-  .card {
-    width: 224px !important;
-    margin-bottom: 41px;
-  }
-  .cardImg {
-    width: 204px;
-  }
   .customNextArrow,
   .customPrevArrow {
     width: 40px;
@@ -95,11 +46,5 @@
 
   .customPrevArrow {
     left: 10px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .card {
-    margin-bottom: 50px;
   }
 }

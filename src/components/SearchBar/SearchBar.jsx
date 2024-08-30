@@ -11,14 +11,19 @@ const SearchBar = () => {
 
   return (
     <div className={css.searchBar}>
-      <button onClick={toggleInputVisibility} className={css.searchButton}>
-        <img src={search} alt="Search" />
+      <button
+        onClick={toggleInputVisibility}
+        className={css.searchButton}
+        aria-label="Toggle search input"
+      >
+        <img src={search} alt="Search Icon" />
       </button>
       {isInputVisible && (
         <input
           type="text"
           placeholder="Search..."
           className={css.searchInput}
+          autoFocus
         />
       )}
     </div>

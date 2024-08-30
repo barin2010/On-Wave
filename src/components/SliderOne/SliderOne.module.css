@@ -10,7 +10,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  width: clamp(20rem, 0rem + 100vw, 47.938rem);
+  width: clamp(20rem, 0rem + 100vi, 90rem);
 }
 .content {
   position: absolute;
@@ -88,12 +88,12 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .wrapper {
-    width: 1400px;
+    width: 1440px;
   }
   .headerImg {
-    width: 1400px;
+    width: 1440px;
   }
   .title {
     font-size: 50px;

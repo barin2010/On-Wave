@@ -16,7 +16,7 @@
 }
 .arrowNext {
   transform: rotate(180deg);
-  left: -10px;
+  left: -7px;
 }
 .arrowPrev {
   left: 10px;

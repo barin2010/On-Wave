@@ -65,6 +65,7 @@ const SliderOne = () => {
             />
 
             <img
+              width="320"
               className={css.headerImg}
               srcSet={`${header_mobile1} 1x, ${header_mobile1_2x} 2x`}
               alt="header"

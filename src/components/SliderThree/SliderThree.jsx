@@ -76,31 +76,71 @@ const SliderThree = () => {
     <div className={css.sliderContainer}>
       <Slider {...settings}>
         <div className={css.imageContainer}>
-          <img className={css.partnersImage} src={epiphone} alt="epiphione" />
+          <img
+            className={css.partnersImage}
+            src={epiphone}
+            alt="epiphione"
+            width="100"
+          />
         </div>
         <div className={css.imageContainer}>
-          <img className={css.partnersImage} src={esp} alt="esp" />
+          <img className={css.partnersImage} src={esp} alt="esp" width="100" />
         </div>
         <div className={css.imageContainer}>
-          <img className={css.partnersImage} src={gibson} alt="gibson" />
+          <img
+            className={css.partnersImage}
+            src={gibson}
+            alt="gibson"
+            width="100"
+          />
         </div>
         <div className={css.imageContainer}>
-          <img className={css.partnersImage} src={engl} alt="engl" />
+          <img
+            className={css.partnersImage}
+            src={engl}
+            alt="engl"
+            width="100"
+          />
         </div>
         <div className={css.imageContainer}>
-          <img className={css.partnersImage} src={roland} alt="roland" />
+          <img
+            className={css.partnersImage}
+            src={roland}
+            alt="roland"
+            width="100"
+          />
         </div>
         <div className={css.imageContainer}>
-          <img className={css.partnersImage} src={fender} alt="fender" />
+          <img
+            className={css.partnersImage}
+            src={fender}
+            alt="fender"
+            width="100"
+          />
         </div>
         <div className={css.imageContainer}>
-          <img className={css.partnersImage} src={peavey} alt="peavey" />
+          <img
+            className={css.partnersImage}
+            src={peavey}
+            alt="peavey"
+            width="100"
+          />
         </div>
         <div className={css.imageContainer}>
-          <img className={css.partnersImage} src={marshal} alt="marshal" />
+          <img
+            className={css.partnersImage}
+            src={marshal}
+            alt="marshal"
+            width="100"
+          />
         </div>
         <div className={css.imageContainer}>
-          <img className={css.partnersImage} src={orange} alt="orange" />
+          <img
+            className={css.partnersImage}
+            src={orange}
+            alt="orange"
+            width="100"
+          />
         </div>
       </Slider>
     </div>

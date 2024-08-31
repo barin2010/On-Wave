@@ -48,6 +48,7 @@
 }
 
 .headerImg {
+  min-width: 320px;
   width: clamp(20rem, 0rem + 100vw, 47.938rem);
 }
 
@@ -77,6 +78,7 @@
     width: clamp(48rem, 0rem + 100vw, 87.438rem);
   }
   .headerImg {
+    min-width: 768px;
     width: clamp(48rem, 0rem + 100vw, 87.438rem);
   }
   .content {
@@ -95,6 +97,7 @@
     width: 1440px;
   }
   .title {
+    min-width: 1440px;
     font-size: 50px;
   }
   .content {

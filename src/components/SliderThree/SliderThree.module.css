@@ -1,9 +1,12 @@
 .sliderContainer {
   width: clamp(20rem, 2.857rem + 85.714vi, 80rem);
+  min-width: 320px;
   padding: 0 43.5px;
   margin-bottom: auto;
 }
-
+.imageContainer {
+  min-width: 100px;
+}
 .partnersImage {
   width: 100px !important;
   margin: 0 auto;

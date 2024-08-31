@@ -1,5 +1,6 @@
 .sliderWrapper {
   width: clamp(20rem, 0rem + 100vi, 90rem);
+  min-width: 320px;
   margin: 0 auto;
   align-self: center;
 }
@@ -25,6 +26,7 @@
 .title {
   font-weight: 700;
   font-size: 26px;
+  min-width: 210px;
   text-transform: uppercase;
   color: var(--brown-light);
   text-align: center;

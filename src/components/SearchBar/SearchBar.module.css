@@ -6,9 +6,11 @@
   background-color: inherit;
   display: flex;
   align-items: center;
+  min-width: 20px;
 }
 .searchButton img {
   display: flex;
+  width: 20px;
 }
 .searchInput {
   max-width: 80px;

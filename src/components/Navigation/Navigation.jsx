@@ -19,7 +19,7 @@ const Navigation = () => {
         <div className={css.wrapper}>
           <div className={css.logoMob}>
             <NavLink to="/">
-              <img src={logoMob} alt="logo" />
+              <img src={logoMob} alt="logo" width="100" />
             </NavLink>
           </div>
           <nav className={css.navigationTablet}>
@@ -33,7 +33,7 @@ const Navigation = () => {
               <SearchBar />
             </div>
             <button className={css.profile}>
-              <img src={profile} alt="profile" />
+              <img src={profile} alt="profile" width='20'/>
             </button>
           </div>
           <button className={css.menu} onClick={openModal}>

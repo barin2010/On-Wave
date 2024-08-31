@@ -6,6 +6,9 @@
   display: flex;
   align-items: center;
 }
+.logoMob {
+  min-width: 100px;
+}
 .navigationTablet {
   display: none;
 }

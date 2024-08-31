@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './Card.module.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const images = {};
 const importAllImages = r => {
@@ -40,7 +40,7 @@ const Card = ({ label, name, price, images, quantity }) => {
         <p className={css.name}>{name}</p>
         <p className={css.price}>{price}</p>
       </div>
-      <Link className={css.cardLink} to="#!"></Link>
+      {/* <Link className={css.cardLink} to="#!"></Link> */}
     </div>
   );
 };

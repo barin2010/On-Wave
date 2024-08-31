@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className={css.wrapper}>
           <div className={css.logo}>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" width="30" />
           </div>
           <ul className={css.navigation}>
             <li className={css.navigationItem}>

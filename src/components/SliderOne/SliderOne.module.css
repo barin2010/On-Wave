@@ -76,7 +76,12 @@
 }
 
 @media (min-width: 768px) {
+  .sliderWrapper {
+    min-width: 768px;
+  }
   .wrapper {
+    min-width: 768px;
+    height: auto;
     width: clamp(48rem, 0rem + 100vw, 87.438rem);
   }
   .headerImg {

@@ -36,6 +36,7 @@
 @media (min-width: 768px) {
   .sliderContainer {
     padding: 0 27px;
+    min-width: 768px;
     width: clamp(48rem, 0rem + 100vi, 90rem);
   }
   .customNextArrow,
@@ -60,6 +61,7 @@
 }
 @media (min-width: 1440px) {
   .sliderContainer {
+    min-width: 1440px;
     width: clamp(48rem, 0rem + 100vi, 90rem);
     padding: 0 100px;
   }

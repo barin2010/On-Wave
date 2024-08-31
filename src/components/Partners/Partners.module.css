@@ -2,13 +2,13 @@
   background-color: var(--brown-light);
 }
 .wrapper {
+  min-width: 320px;
   width: clamp(20rem, 2.857rem + 85.714vi, 80rem);
   padding-top: 50px;
   padding-bottom: 82.5px;
 
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: center;
 
@@ -23,7 +23,7 @@
 
 @media (min-width: 768px) {
   .wrapper {
-    padding-bottom: 49.5px;
+    padding-bottom: 41px;
   }
   .title {
     margin-bottom: 40px;

@@ -54,14 +54,18 @@ const SliderOne = () => {
         <div className={css.wrapper}>
           <picture>
             <source
+              loading="lazy"
               width="1440"
+              height="700"
               className={css.headerImg}
               media="(min-width:1440px )"
               srcSet={`${header_desc1} 1x, ${header_desc1_2x} 2x`}
             />
 
             <source
+              loading="lazy"
               width="768"
+              height="380"
               className={css.headerImg}
               media="(min-width:768px)"
               srcSet={`${header_tablet1} 1x, ${header_tablet_2x} 2x`}
@@ -70,6 +74,7 @@ const SliderOne = () => {
             <img
               loading="lazy"
               width="320"
+              height="384"
               className={css.headerImg}
               srcSet={`${header_mobile1} 1x, ${header_mobile1_2x} 2x`}
               alt="header"
@@ -87,14 +92,18 @@ const SliderOne = () => {
         <div className={css.wrapper}>
           <picture>
             <source
+              loading="lazy"
               width="1440"
+              height="700"
               className={css.headerImg}
               media="(min-width:1440px )"
               srcSet={`${header_desc2} 1x, ${header_desc2_2x} 2x`}
             />
 
             <source
+              loading="lazy"
               width="768"
+              height="380"
               className={css.headerImg}
               media="(min-width:768px)"
               srcSet={`${header_tablet2} 1x, ${header_tablet2_2x} 2x`}
@@ -103,6 +112,7 @@ const SliderOne = () => {
             <img
               loading="lazy"
               width="320"
+              height="384"
               className={css.headerImg}
               srcSet={`${header_mobile2} 1x, ${header_mobile2_2x} 2x`}
               alt="header"
@@ -120,14 +130,18 @@ const SliderOne = () => {
         <div className={css.wrapper}>
           <picture>
             <source
+              loading="lazy"
               width="1440"
+              height="700"
               className={css.headerImg}
               media="(min-width:1440px )"
               srcSet={`${header_desc3} 1x, ${header_desc3_2x} 2x`}
             />
 
             <source
+              loading="lazy"
               width="768"
+              height="380"
               className={css.headerImg}
               media="(min-width:768px)"
               srcSet={`${header_tablet3} 1x, ${header_tablet3_2x} 2x`}
@@ -136,6 +150,7 @@ const SliderOne = () => {
             <img
               loading="lazy"
               width="320"
+              height="384"
               className={css.headerImg}
               srcSet={`${header_mobile3} 1x, ${header_mobile3_2x} 2x`}
               alt="header"

@@ -123,10 +123,10 @@
 
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas:
-      'a a . . . . . . . c c c'
+      'a a . . . . . . . c c c '
       'b b . . . . . . . c c c'
       'b b . . . . . . . c c c'
-      'd d d d d d d d d d d d';
+      'd d d d d d d d d d d d ';
   }
   .logo {
     margin-bottom: 35px;
@@ -134,14 +134,17 @@
   .navigationItem {
     font-size: 20px;
   }
+  .contacts {
+    margin-bottom: 65px;
+  }
   .contactsTitle {
-    margin-bottom: 48px;
+    margin-bottom: 3px;
   }
   .title {
     font-size: 26px;
   }
   .socialList {
-    margin-bottom: 65px;
+    margin-bottom: 0;
     gap: 45px;
   }
   .socialIcon,

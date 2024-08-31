@@ -67,6 +67,7 @@ const SliderOne = () => {
             />
 
             <img
+              loading="eager"
               width="320"
               className={css.headerImg}
               srcSet={`${header_mobile1} 1x, ${header_mobile1_2x} 2x`}
@@ -99,6 +100,7 @@ const SliderOne = () => {
             />
 
             <img
+              loading="eager"
               width="320"
               className={css.headerImg}
               srcSet={`${header_mobile2} 1x, ${header_mobile2_2x} 2x`}
@@ -131,6 +133,7 @@ const SliderOne = () => {
             />
 
             <img
+              loading="eager"
               width="320"
               className={css.headerImg}
               srcSet={`${header_mobile3} 1x, ${header_mobile3_2x} 2x`}

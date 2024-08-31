@@ -19,8 +19,6 @@ const SliderTwo = () => {
     autoplaySpeed: 2000,
     dots: true,
     arrows: false,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
 
     dotsClass: css.customDots,
     beforeChange: (current, next) => setActiveSlide(next),

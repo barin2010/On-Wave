@@ -40,6 +40,7 @@ const SliderOne = () => {
     beforeChange: (current, next) => setActiveSlide(next),
     customPaging: i => (
       <button
+        aria-label="Следующий слайд"
         className={`${css.customDot} ${
           i === activeSlide ? css.customDotActive : ''
         }`}

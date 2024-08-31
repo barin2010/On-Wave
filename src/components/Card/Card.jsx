@@ -34,6 +34,7 @@ const Card = ({ label, name, price, images, quantity }) => {
         )} 2x, ${getImagePath(images['3x'])} 3x`}
         src={getImagePath(images['1x'])}
         alt={name}
+        loading="lazy"
       />
       <div className={css.descr}>
         <p className={css.name}>{name}</p>

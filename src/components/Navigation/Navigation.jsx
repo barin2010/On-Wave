@@ -33,11 +33,11 @@ const Navigation = () => {
               <SearchBar />
             </div>
             <button className={css.profile}>
-              <img src={profile} alt="profile" width='20'/>
+              <img src={profile} alt="profile" width="20" height="20" />
             </button>
           </div>
           <button className={css.menu} onClick={openModal}>
-            <img src={burger} alt="menu" />
+            <img src={burger} alt="menu" width="22" height="20" />
           </button>
         </div>
       </div>

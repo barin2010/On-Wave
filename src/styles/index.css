@@ -1,35 +1,5 @@
 @import './reset.css';
 
-/* 500 */
-/* @font-face {
-  font-family: 'Montserrat';
-  src: url('./fonts/Montserrat-Medium.woff') format('woff'),
-    url('./fonts/Montserrat-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-} */
-
-/* 600 */
-/* @font-face {
-  font-family: 'Montserrat';
-  src: url('./fonts/Montserrat-SemiBold.woff') format('woff'),
-    url('./fonts/Montserrat-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-} */
-
-/* 700 */
-/* @font-face {
-  font-family: 'Montserrat';
-  src: url('./fonts/Montserrat-Bold.woff') format('woff'),
-    url('./fonts/Montserrat-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-} */
-
 :root {
   /* font */
   --primary-font: 'Montserrat';

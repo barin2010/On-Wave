@@ -1,5 +1,4 @@
 .sliderContainer {
-  /* width: 100%; */
   width: clamp(20rem, 2.857rem + 85.714vi, 80rem);
   padding: 0 43.5px;
   margin-bottom: auto;

@@ -1,11 +1,11 @@
 .arrowNext,
 .arrowPrev {
   top: -120%;
-  /* transform: translateY(-50%); */
+ 
   z-index: 1;
   cursor: pointer;
   position: absolute;
-  width: 16px; /* Размер иконок стрелок */
+  width: 16px;
   height: 30px;
 }
 .arrowNext:hover path,

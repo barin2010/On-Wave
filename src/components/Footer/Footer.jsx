@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className={css.wrapper}>
           <div className={css.logo}>
-            <img src={logo} alt="logo" width="30" />
+            <img src={logo} alt="logo" width="150" height="30" loading="lazy" />
           </div>
           <ul className={css.navigation}>
             <li className={css.navigationItem}>
@@ -37,6 +37,7 @@ const Footer = () => {
                     className={css.socialIcon}
                     width="20"
                     height="20"
+                    loading="lazy"
                     aria-label="instagramm"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -54,6 +55,7 @@ const Footer = () => {
                     className={css.socialIcon}
                     width="10"
                     height="20"
+                    loading="lazy"
                     fill="none"
                     aria-label="facebook"
                     xmlns="http://www.w3.org/2000/svg"
@@ -71,6 +73,7 @@ const Footer = () => {
                     className={css.socialIcon}
                     width="15"
                     height="20"
+                    loading="lazy"
                     fill="none"
                     aria-label="pinterest"
                     xmlns="http://www.w3.org/2000/svg"
@@ -88,6 +91,7 @@ const Footer = () => {
                     className={css.socialIconStroke}
                     width="26"
                     height="22"
+                    loading="lazy"
                     fill="none"
                     aria-label="twitter"
                     xmlns="http://www.w3.org/2000/svg"
@@ -108,6 +112,7 @@ const Footer = () => {
                     className={css.socialIconStroke}
                     width="29"
                     height="22"
+                    loading="lazy"
                     fill="none"
                     aria-label="youtube"
                     xmlns="http://www.w3.org/2000/svg"

@@ -92,6 +92,7 @@
 }
 
 .copyrightText {
+  font-family: var(--font-family);
   font-size: 12px;
   text-align: center;
   color: var(--brown-light);

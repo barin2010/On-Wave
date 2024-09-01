@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import css from './SliderThree.module.css';
 import NextArrow from 'components/Arrows/NextArrow ';
 import PrevArrow from 'components/Arrows/PrevArrow';

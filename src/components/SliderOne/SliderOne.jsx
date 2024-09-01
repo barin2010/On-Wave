@@ -78,7 +78,7 @@ const SliderOne = () => {
 
             <img
               loading="eager"
-              fetchpriority="low"
+              fetchpriority="high"
               decoding="async"
               width="320"
               height="384"

@@ -78,8 +78,10 @@ const SliderThree = () => {
             src={epiphone}
             alt="epiphione"
             width="100"
-            height="auto"
+            height="35"
             loading="lazy"
+            fetchpriority="low"
+            decoding="async"
           />
         </div>
         <div className={css.imageContainer}>
@@ -88,8 +90,10 @@ const SliderThree = () => {
             src={esp}
             alt="esp"
             width="100"
-            height="auto"
+            height="43"
             loading="lazy"
+            fetchpriority="low"
+            decoding="async"
           />
         </div>
         <div className={css.imageContainer}>
@@ -98,8 +102,10 @@ const SliderThree = () => {
             src={gibson}
             alt="gibson"
             width="100"
-            height="auto"
+            height="64"
             loading="lazy"
+            fetchpriority="low"
+            decoding="async"
           />
         </div>
         <div className={css.imageContainer}>
@@ -108,8 +114,10 @@ const SliderThree = () => {
             src={engl}
             alt="engl"
             width="100"
-            height="auto"
+            height="34"
             loading="lazy"
+            fetchpriority="low"
+            decoding="async"
           />
         </div>
         <div className={css.imageContainer}>
@@ -118,8 +126,10 @@ const SliderThree = () => {
             src={roland}
             alt="roland"
             width="100"
-            height="auto"
+            height="15"
             loading="lazy"
+            fetchpriority="low"
+            decoding="async"
           />
         </div>
         <div className={css.imageContainer}>
@@ -128,8 +138,10 @@ const SliderThree = () => {
             src={fender}
             alt="fender"
             width="100"
-            height="auto"
+            height="66"
             loading="lazy"
+            fetchpriority="low"
+            decoding="async"
           />
         </div>
         <div className={css.imageContainer}>
@@ -138,8 +150,10 @@ const SliderThree = () => {
             src={peavey}
             alt="peavey"
             width="100"
-            height="auto"
+            height="60"
             loading="lazy"
+            fetchpriority="low"
+            decoding="async"
           />
         </div>
         <div className={css.imageContainer}>
@@ -148,8 +162,10 @@ const SliderThree = () => {
             src={marshal}
             alt="marshal"
             width="100"
-            height="auto"
+            height="26"
             loading="lazy"
+            fetchpriority="low"
+            decoding="async"
           />
         </div>
         <div className={css.imageContainer}>
@@ -158,8 +174,10 @@ const SliderThree = () => {
             src={orange}
             alt="orange"
             width="100"
-            height="auto"
+            height="29"
             loading="lazy"
+            fetchpriority="low"
+            decoding="async"
           />
         </div>
       </Slider>

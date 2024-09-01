@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/On-Wave/static/css/main.d4d44267.css",
-    "main.js": "/On-Wave/static/js/main.fab720b7.js",
-    "static/css/543.2cf7e7b8.chunk.css": "/On-Wave/static/css/543.2cf7e7b8.chunk.css",
-    "static/js/543.94692ad0.chunk.js": "/On-Wave/static/js/543.94692ad0.chunk.js",
+    "main.css": "/On-Wave/static/css/main.8257baaf.css",
+    "main.js": "/On-Wave/static/js/main.3671c14d.js",
+    "static/css/543.b5c5cbf2.chunk.css": "/On-Wave/static/css/543.b5c5cbf2.chunk.css",
+    "static/js/543.348bd57a.chunk.js": "/On-Wave/static/js/543.348bd57a.chunk.js",
     "static/js/927.04710ca2.chunk.js": "/On-Wave/static/js/927.04710ca2.chunk.js",
     "static/js/943.9e0e44c9.chunk.js": "/On-Wave/static/js/943.9e0e44c9.chunk.js",
     "static/js/533.f0236aeb.chunk.js": "/On-Wave/static/js/533.f0236aeb.chunk.js",
@@ -60,17 +60,17 @@
     "static/media/engl.svg": "/On-Wave/static/media/engl.73e036e64582504ca6273f8f7008b495.svg",
     "static/media/cross.svg": "/On-Wave/static/media/cross.5c81e52873eb9972ca225d584189ced1.svg",
     "static/media/burger.svg": "/On-Wave/static/media/burger.b27ae2754d486e922e8414681ef743b6.svg",
-    "main.d4d44267.css.map": "/On-Wave/static/css/main.d4d44267.css.map",
-    "main.fab720b7.js.map": "/On-Wave/static/js/main.fab720b7.js.map",
-    "543.2cf7e7b8.chunk.css.map": "/On-Wave/static/css/543.2cf7e7b8.chunk.css.map",
-    "543.94692ad0.chunk.js.map": "/On-Wave/static/js/543.94692ad0.chunk.js.map",
+    "main.8257baaf.css.map": "/On-Wave/static/css/main.8257baaf.css.map",
+    "main.3671c14d.js.map": "/On-Wave/static/js/main.3671c14d.js.map",
+    "543.b5c5cbf2.chunk.css.map": "/On-Wave/static/css/543.b5c5cbf2.chunk.css.map",
+    "543.348bd57a.chunk.js.map": "/On-Wave/static/js/543.348bd57a.chunk.js.map",
     "927.04710ca2.chunk.js.map": "/On-Wave/static/js/927.04710ca2.chunk.js.map",
     "943.9e0e44c9.chunk.js.map": "/On-Wave/static/js/943.9e0e44c9.chunk.js.map",
     "533.f0236aeb.chunk.js.map": "/On-Wave/static/js/533.f0236aeb.chunk.js.map",
     "2.3abccf1c.chunk.js.map": "/On-Wave/static/js/2.3abccf1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4d44267.css",
-    "static/js/main.fab720b7.js"
+    "static/css/main.8257baaf.css",
+    "static/js/main.3671c14d.js"
   ]
 }

@@ -23,7 +23,8 @@
   width: 210px;
 }
 .title {
-  min-width: 210px;
+  width: 210px;
+  min-height: 64px;
 }
 
 .title p {
@@ -107,7 +108,10 @@
     width: 1440px;
   }
   .title {
-    min-width: 1440px;
+    width: 350px;
+    min-height: 122px;
+  }
+  .title p {
     font-size: 50px;
   }
   .content {

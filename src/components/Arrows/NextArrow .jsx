@@ -3,7 +3,7 @@ import css from './Arrow.module.css';
 
 const NextArrow = ({ currentSlide, slideCount, ...props }) => {
   return (
-    <div aria-label="Следующий слайд" {...props}>
+    <div  {...props}>
       <img className={css.arrowNext} src={next} alt="Next" />
 
       <svg

@@ -1,4 +1,3 @@
-// import next from '../../images/arrivals/prev.svg';
 import css from './Arrow.module.css';
 
 const NextArrow = ({ currentSlide, slideCount, ...props }) => {
@@ -6,7 +5,6 @@ const NextArrow = ({ currentSlide, slideCount, ...props }) => {
     <div {...props}>
       <svg
         className={css.arrowNext}
-        // src={next}
         alt="Next"
         width="16"
         height="30"

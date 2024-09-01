@@ -5,7 +5,6 @@ const PrevArrow = ({ currentSlide, slideCount, ...props }) => {
     <div {...props}>
       <svg
         className={css.arrowPrev}
-        // src={prev}
         alt="Prev"
         width="16"
         height="30"

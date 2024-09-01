@@ -37,6 +37,7 @@ const Footer = () => {
                     className={css.socialIcon}
                     width="20"
                     height="20"
+                    aria-label="instagramm"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -54,6 +55,7 @@ const Footer = () => {
                     width="10"
                     height="20"
                     fill="none"
+                    aria-label="facebook"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -70,6 +72,7 @@ const Footer = () => {
                     width="15"
                     height="20"
                     fill="none"
+                    aria-label="pinterest"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -86,6 +89,7 @@ const Footer = () => {
                     width="26"
                     height="22"
                     fill="none"
+                    aria-label="twitter"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -105,6 +109,7 @@ const Footer = () => {
                     width="29"
                     height="22"
                     fill="none"
+                    aria-label="youtube"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path

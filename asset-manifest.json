@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/On-Wave/static/css/main.ed7947b5.css",
-    "main.js": "/On-Wave/static/js/main.9e61f564.js",
-    "static/css/124.2ab367a3.chunk.css": "/On-Wave/static/css/124.2ab367a3.chunk.css",
-    "static/js/124.45ce342b.chunk.js": "/On-Wave/static/js/124.45ce342b.chunk.js",
+    "main.css": "/On-Wave/static/css/main.5b19c5e9.css",
+    "main.js": "/On-Wave/static/js/main.20588ee1.js",
+    "static/css/963.79ea43ef.chunk.css": "/On-Wave/static/css/963.79ea43ef.chunk.css",
+    "static/js/963.308117ad.chunk.js": "/On-Wave/static/js/963.308117ad.chunk.js",
     "static/js/927.04710ca2.chunk.js": "/On-Wave/static/js/927.04710ca2.chunk.js",
     "static/js/943.9e0e44c9.chunk.js": "/On-Wave/static/js/943.9e0e44c9.chunk.js",
     "static/js/533.f0236aeb.chunk.js": "/On-Wave/static/js/533.f0236aeb.chunk.js",
@@ -11,8 +11,14 @@
     "static/media/header_desc1@2x.jpg": "/On-Wave/static/media/header_desc1@2x.60ffb1ae418a2a414438.jpg",
     "static/media/header_desc2@2x.jpg": "/On-Wave/static/media/header_desc2@2x.f74e651ab62408941e92.jpg",
     "static/media/header_desc3@2x.jpg": "/On-Wave/static/media/header_desc3@2x.e056ca30532eb5ff5168.jpg",
+    "static/media/Montserrat-Bold.woff": "/On-Wave/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff",
+    "static/media/Montserrat-Medium.woff": "/On-Wave/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff",
+    "static/media/Montserrat-SemiBold.woff": "/On-Wave/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff",
     "static/media/header_tablet1@2x.jpg": "/On-Wave/static/media/header_tablet1@2x.4443965b0830fa736d49.jpg",
     "static/media/header_desc1.jpg": "/On-Wave/static/media/header_desc1.7032aff0386ddff77758.jpg",
+    "static/media/Montserrat-Bold.woff2": "/On-Wave/static/media/Montserrat-Bold.cfceaf4e74789fc9df24.woff2",
+    "static/media/Montserrat-Medium.woff2": "/On-Wave/static/media/Montserrat-Medium.d6bbb7c3c86aa8edcd0a.woff2",
+    "static/media/Montserrat-SemiBold.woff2": "/On-Wave/static/media/Montserrat-SemiBold.1d679c8257a6a9caa9bd.woff2",
     "static/media/header_desc3.jpg": "/On-Wave/static/media/header_desc3.0b0c60d8ad7054f84210.jpg",
     "static/media/header_desc2.jpg": "/On-Wave/static/media/header_desc2.bb4e0cbfdf10436fd0d0.jpg",
     "static/media/gitar5@3x.jpg": "/On-Wave/static/media/gitar5@3x.d494aa28b9b988bcf5d9.jpg",
@@ -40,8 +46,8 @@
     "static/media/slick.ttf": "/On-Wave/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/On-Wave/static/media/slick.295183786cd8a1389865.woff",
     "static/media/fender.svg": "/On-Wave/static/media/fender.01a52e093f57f1808061bd20fd0f35dc.svg",
-    "index.html": "/On-Wave/index.html",
     "static/media/search.svg": "/On-Wave/static/media/search.c3435cdfe71eff3da91760c9d5f9ef0e.svg",
+    "index.html": "/On-Wave/index.html",
     "static/media/logo-white.svg": "/On-Wave/static/media/logo-white.52a963cd1a1e186abe53ad43400b0801.svg",
     "static/media/roland.svg": "/On-Wave/static/media/roland.c28261b7247fac62978cfa02e8e384af.svg",
     "static/media/marshal.svg": "/On-Wave/static/media/marshal.575caf74ca42b14e3b5895b778e71939.svg",
@@ -54,17 +60,17 @@
     "static/media/engl.svg": "/On-Wave/static/media/engl.73e036e64582504ca6273f8f7008b495.svg",
     "static/media/cross.svg": "/On-Wave/static/media/cross.5c81e52873eb9972ca225d584189ced1.svg",
     "static/media/burger.svg": "/On-Wave/static/media/burger.b27ae2754d486e922e8414681ef743b6.svg",
-    "main.ed7947b5.css.map": "/On-Wave/static/css/main.ed7947b5.css.map",
-    "main.9e61f564.js.map": "/On-Wave/static/js/main.9e61f564.js.map",
-    "124.2ab367a3.chunk.css.map": "/On-Wave/static/css/124.2ab367a3.chunk.css.map",
-    "124.45ce342b.chunk.js.map": "/On-Wave/static/js/124.45ce342b.chunk.js.map",
+    "main.5b19c5e9.css.map": "/On-Wave/static/css/main.5b19c5e9.css.map",
+    "main.20588ee1.js.map": "/On-Wave/static/js/main.20588ee1.js.map",
+    "963.79ea43ef.chunk.css.map": "/On-Wave/static/css/963.79ea43ef.chunk.css.map",
+    "963.308117ad.chunk.js.map": "/On-Wave/static/js/963.308117ad.chunk.js.map",
     "927.04710ca2.chunk.js.map": "/On-Wave/static/js/927.04710ca2.chunk.js.map",
     "943.9e0e44c9.chunk.js.map": "/On-Wave/static/js/943.9e0e44c9.chunk.js.map",
     "533.f0236aeb.chunk.js.map": "/On-Wave/static/js/533.f0236aeb.chunk.js.map",
     "827.63895388.chunk.js.map": "/On-Wave/static/js/827.63895388.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed7947b5.css",
-    "static/js/main.9e61f564.js"
+    "static/css/main.5b19c5e9.css",
+    "static/js/main.20588ee1.js"
   ]
 }

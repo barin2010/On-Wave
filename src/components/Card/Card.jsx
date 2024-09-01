@@ -29,12 +29,15 @@ const Card = ({ label, name, price, images, quantity }) => {
       <img
         className={css.cardImg}
         width="200"
+        height="370"
         srcSet={`${getImagePath(images['1x'])} 1x, ${getImagePath(
           images['2x']
         )} 2x, ${getImagePath(images['3x'])} 3x`}
         src={getImagePath(images['1x'])}
         alt={name}
         loading="lazy"
+        fetchpriority="low"
+        decoding="async"
       />
       <div className={css.descr}>
         <p className={css.name}>{name}</p>

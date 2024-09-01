@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/On-Wave/static/css/main.d217bedd.css",
-    "main.js": "/On-Wave/static/js/main.cf38bdc4.js",
-    "static/css/181.448e589c.chunk.css": "/On-Wave/static/css/181.448e589c.chunk.css",
-    "static/js/181.a5cf48e3.chunk.js": "/On-Wave/static/js/181.a5cf48e3.chunk.js",
+    "main.css": "/On-Wave/static/css/main.b6b41686.css",
+    "main.js": "/On-Wave/static/js/main.1c59a540.js",
+    "static/css/345.bded9328.chunk.css": "/On-Wave/static/css/345.bded9328.chunk.css",
+    "static/js/345.4d0ea429.chunk.js": "/On-Wave/static/js/345.4d0ea429.chunk.js",
     "static/js/927.04710ca2.chunk.js": "/On-Wave/static/js/927.04710ca2.chunk.js",
     "static/js/943.9e0e44c9.chunk.js": "/On-Wave/static/js/943.9e0e44c9.chunk.js",
     "static/js/533.f0236aeb.chunk.js": "/On-Wave/static/js/533.f0236aeb.chunk.js",
@@ -40,7 +40,7 @@
     "static/media/header_tablet2.webp": "/On-Wave/static/media/header_tablet2.9f8d63e408adc0b48eb6.webp",
     "static/media/header_mob2@2x.webp": "/On-Wave/static/media/header_mob2@2x.090012b00845c28dd7f5.webp",
     "static/media/header_mob2.webp": "/On-Wave/static/media/header_mob2.ccb54fd629c6e779e352.webp",
-    "static/media/prev.svg": "/On-Wave/static/media/prev.89c858fca191b66ea3bd162e9813a8cb.svg",
+    "static/media/prev.svg": "/On-Wave/static/media/prev.89c858fca191b66ea3bd.svg",
     "static/media/header_mob3.webp": "/On-Wave/static/media/header_mob3.7547a38356833191ebbf.webp",
     "static/media/header_mob3@2x.webp": "/On-Wave/static/media/header_mob3@2x.50e099c77719d42410cb.webp",
     "static/media/slick.svg": "/On-Wave/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -63,17 +63,17 @@
     "static/media/engl.svg": "/On-Wave/static/media/engl.73e036e64582504ca6273f8f7008b495.svg",
     "static/media/cross.svg": "/On-Wave/static/media/cross.5c81e52873eb9972ca225d584189ced1.svg",
     "static/media/burger.svg": "/On-Wave/static/media/burger.b27ae2754d486e922e8414681ef743b6.svg",
-    "main.d217bedd.css.map": "/On-Wave/static/css/main.d217bedd.css.map",
-    "main.cf38bdc4.js.map": "/On-Wave/static/js/main.cf38bdc4.js.map",
-    "181.448e589c.chunk.css.map": "/On-Wave/static/css/181.448e589c.chunk.css.map",
-    "181.a5cf48e3.chunk.js.map": "/On-Wave/static/js/181.a5cf48e3.chunk.js.map",
+    "main.b6b41686.css.map": "/On-Wave/static/css/main.b6b41686.css.map",
+    "main.1c59a540.js.map": "/On-Wave/static/js/main.1c59a540.js.map",
+    "345.bded9328.chunk.css.map": "/On-Wave/static/css/345.bded9328.chunk.css.map",
+    "345.4d0ea429.chunk.js.map": "/On-Wave/static/js/345.4d0ea429.chunk.js.map",
     "927.04710ca2.chunk.js.map": "/On-Wave/static/js/927.04710ca2.chunk.js.map",
     "943.9e0e44c9.chunk.js.map": "/On-Wave/static/js/943.9e0e44c9.chunk.js.map",
     "533.f0236aeb.chunk.js.map": "/On-Wave/static/js/533.f0236aeb.chunk.js.map",
     "2.3abccf1c.chunk.js.map": "/On-Wave/static/js/2.3abccf1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d217bedd.css",
-    "static/js/main.cf38bdc4.js"
+    "static/css/main.b6b41686.css",
+    "static/js/main.1c59a540.js"
   ]
 }

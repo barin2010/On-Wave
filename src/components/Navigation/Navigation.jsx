@@ -19,7 +19,7 @@ const Navigation = () => {
         <div className={css.wrapper}>
           <div className={css.logoMob}>
             <NavLink to="/">
-              <img src={logoMob} alt="logo" width="100" />
+              <img src={logoMob} alt="logo" width="100" height="19" />
             </NavLink>
           </div>
           <nav className={css.navigationTablet}>

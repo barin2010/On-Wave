@@ -16,7 +16,7 @@ const SearchBar = () => {
         className={css.searchButton}
         aria-label="Toggle search input"
       >
-        <img src={search} alt="Search Icon" width="20" />
+        <img src={search} alt="Search Icon" width="20" height="20" />
       </button>
       {isInputVisible && (
         <input

@@ -78,6 +78,7 @@ const SliderThree = () => {
             src={epiphone}
             alt="epiphione"
             width="100"
+            height="auto"
             loading="lazy"
           />
         </div>
@@ -87,6 +88,7 @@ const SliderThree = () => {
             src={esp}
             alt="esp"
             width="100"
+            height="auto"
             loading="lazy"
           />
         </div>
@@ -96,6 +98,7 @@ const SliderThree = () => {
             src={gibson}
             alt="gibson"
             width="100"
+            height="auto"
             loading="lazy"
           />
         </div>
@@ -105,6 +108,7 @@ const SliderThree = () => {
             src={engl}
             alt="engl"
             width="100"
+            height="auto"
             loading="lazy"
           />
         </div>
@@ -114,6 +118,7 @@ const SliderThree = () => {
             src={roland}
             alt="roland"
             width="100"
+            height="auto"
             loading="lazy"
           />
         </div>
@@ -123,6 +128,7 @@ const SliderThree = () => {
             src={fender}
             alt="fender"
             width="100"
+            height="auto"
             loading="lazy"
           />
         </div>
@@ -132,6 +138,7 @@ const SliderThree = () => {
             src={peavey}
             alt="peavey"
             width="100"
+            height="auto"
             loading="lazy"
           />
         </div>
@@ -141,6 +148,7 @@ const SliderThree = () => {
             src={marshal}
             alt="marshal"
             width="100"
+            height="auto"
             loading="lazy"
           />
         </div>
@@ -150,6 +158,7 @@ const SliderThree = () => {
             src={orange}
             alt="orange"
             width="100"
+            height="auto"
             loading="lazy"
           />
         </div>

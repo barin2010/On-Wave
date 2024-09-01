@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -29,24 +29,27 @@ import header_desc3_2x from '../../images/header/header_desc3@2x.jpg';
 const SliderOne = () => {
   const [activeSlide, setActiveSlide] = useState(0);
 
-  const settings = {
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 2000,
-    dots: true,
-    arrows: false,
-    dotsClass: css.customDots,
-    beforeChange: (current, next) => setActiveSlide(next),
-    customPaging: i => (
-      <button
-        aria-label="Следующий слайд"
-        className={`${css.customDot} ${
-          i === activeSlide ? css.customDotActive : ''
-        }`}
-      ></button>
-    ),
-  };
+  const settings = useMemo(
+    () => ({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      dots: true,
+      arrows: false,
+      dotsClass: css.customDots,
+      beforeChange: (current, next) => setActiveSlide(next),
+      customPaging: i => (
+        <button
+          aria-label="Следующий слайд"
+          className={`${css.customDot} ${
+            i === activeSlide ? css.customDotActive : ''
+          }`}
+        ></button>
+      ),
+    }),
+    [activeSlide]
+  );
 
   return (
     <div className={css.sliderWrapper}>
@@ -170,7 +173,7 @@ const SliderOne = () => {
   );
 };
 
-export default SliderOne;
+export default React.memo(SliderOne);
 
 // import React, { useState, useMemo } from 'react';
 // import Slider from 'react-slick';

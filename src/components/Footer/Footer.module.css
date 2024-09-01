@@ -33,6 +33,7 @@
 
 .navigation {
   min-height: 110px;
+  min-width: 75px;
   grid-area: b;
   display: flex;
   flex-direction: column;

@@ -2,6 +2,7 @@
   background-color: var(--brown-dark);
   overflow: hidden;
   min-width: 320px;
+  height: auto;
 }
 
 .wrapper {

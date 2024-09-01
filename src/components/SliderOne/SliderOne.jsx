@@ -89,7 +89,9 @@ const SliderOne = () => {
           </picture>
           <div className={css.wrapperContent}>
             <div className={css.content}>
-              <div className={css.title}>Find your own style</div>
+              <div className={css.title}>
+                <p>Find your own style</p>
+              </div>
               <button className={css.button}>
                 <Link to="/catalog">View more</Link>
               </button>
@@ -133,7 +135,9 @@ const SliderOne = () => {
           </picture>
           <div className={css.wrapperContent}>
             <div className={css.content}>
-              <div className={css.title}>Find your own style</div>
+              <div className={css.title}>
+                <p>Find your own style</p>
+              </div>
               <button className={css.button}>
                 <Link to="/catalog">View more</Link>
               </button>
@@ -177,7 +181,9 @@ const SliderOne = () => {
           </picture>
           <div className={css.wrapperContent}>
             <div className={css.content}>
-              <div className={css.title}>Find your own style</div>
+              <div className={css.title}>
+                <p>Find your own style</p>
+              </div>
               <button className={css.button}>
                 <Link to="/catalog">View more</Link>
               </button>

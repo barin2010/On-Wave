@@ -22,11 +22,13 @@
   gap: 21px;
   width: 210px;
 }
-
 .title {
+  min-width: 210px;
+}
+
+.title p {
   font-weight: 700;
   font-size: 26px;
-  min-width: 210px;
   text-transform: uppercase;
   color: var(--brown-light);
   text-align: center;

@@ -1,9 +1,11 @@
 .footer {
   background-color: var(--brown-dark);
   overflow: hidden;
+  min-width: 320px;
 }
 
 .wrapper {
+  width: 100%;
   padding-top: 50px;
   padding-bottom: 30px;
 

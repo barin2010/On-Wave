@@ -39,7 +39,7 @@ const SliderOne = () => {
       beforeChange: (current, next) => setActiveSlide(next),
       customPaging: i => (
         <button
-          aria-label="Следующий слайд"
+          aria-label="next slide"
           className={`${css.customDot} ${
             i === activeSlide ? css.customDotActive : ''
           }`}
@@ -56,6 +56,8 @@ const SliderOne = () => {
           <picture>
             <source
               loading="lazy"
+              fetchpriority="low"
+              decoding="async"
               width="1440"
               height="700"
               className={css.headerImg}
@@ -65,6 +67,8 @@ const SliderOne = () => {
 
             <source
               loading="lazy"
+              fetchpriority="low"
+              decoding="async"
               width="768"
               height="380"
               className={css.headerImg}
@@ -74,6 +78,8 @@ const SliderOne = () => {
 
             <img
               loading="eager"
+              fetchpriority="low"
+              decoding="async"
               width="320"
               height="384"
               className={css.headerImg}
@@ -94,6 +100,8 @@ const SliderOne = () => {
           <picture>
             <source
               loading="lazy"
+              fetchpriority="low"
+              decoding="async"
               width="1440"
               height="700"
               className={css.headerImg}
@@ -103,6 +111,8 @@ const SliderOne = () => {
 
             <source
               loading="lazy"
+              fetchpriority="low"
+              decoding="async"
               width="768"
               height="380"
               className={css.headerImg}
@@ -112,6 +122,8 @@ const SliderOne = () => {
 
             <img
               loading="lazy"
+              fetchpriority="low"
+              decoding="async"
               width="320"
               height="384"
               className={css.headerImg}
@@ -132,6 +144,8 @@ const SliderOne = () => {
           <picture>
             <source
               loading="lazy"
+              fetchpriority="low"
+              decoding="async"
               width="1440"
               height="700"
               className={css.headerImg}
@@ -141,6 +155,8 @@ const SliderOne = () => {
 
             <source
               loading="lazy"
+              fetchpriority="low"
+              decoding="async"
               width="768"
               height="380"
               className={css.headerImg}
@@ -150,6 +166,8 @@ const SliderOne = () => {
 
             <img
               loading="lazy"
+              fetchpriority="low"
+              decoding="async"
               width="320"
               height="384"
               className={css.headerImg}

@@ -41,6 +41,7 @@
   border: 2px solid var(--brown-light);
   padding: 10px 26.5px;
   width: 175px;
+  min-height: 40px;
 }
 .button:hover,
 .button:focus {

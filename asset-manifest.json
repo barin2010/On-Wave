@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/On-Wave/static/css/main.b7994bc4.css",
+    "main.css": "/On-Wave/static/css/main.d217bedd.css",
     "main.js": "/On-Wave/static/js/main.2c3ca656.js",
     "static/css/543.7883e446.chunk.css": "/On-Wave/static/css/543.7883e446.chunk.css",
     "static/js/543.348bd57a.chunk.js": "/On-Wave/static/js/543.348bd57a.chunk.js",
@@ -60,7 +60,7 @@
     "static/media/engl.svg": "/On-Wave/static/media/engl.73e036e64582504ca6273f8f7008b495.svg",
     "static/media/cross.svg": "/On-Wave/static/media/cross.5c81e52873eb9972ca225d584189ced1.svg",
     "static/media/burger.svg": "/On-Wave/static/media/burger.b27ae2754d486e922e8414681ef743b6.svg",
-    "main.b7994bc4.css.map": "/On-Wave/static/css/main.b7994bc4.css.map",
+    "main.d217bedd.css.map": "/On-Wave/static/css/main.d217bedd.css.map",
     "main.2c3ca656.js.map": "/On-Wave/static/js/main.2c3ca656.js.map",
     "543.7883e446.chunk.css.map": "/On-Wave/static/css/543.7883e446.chunk.css.map",
     "543.348bd57a.chunk.js.map": "/On-Wave/static/js/543.348bd57a.chunk.js.map",
@@ -70,7 +70,7 @@
     "2.3abccf1c.chunk.js.map": "/On-Wave/static/js/2.3abccf1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7994bc4.css",
+    "static/css/main.d217bedd.css",
     "static/js/main.2c3ca656.js"
   ]
 }

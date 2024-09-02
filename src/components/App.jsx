@@ -2,13 +2,13 @@ import React, { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navigation from './Navigation/Navigation';
 import Footer from './Footer/Footer';
-import ItemDetails from './ItemDetails/ItemDetails';
-import SearchResults from './SearchResults/SearchResults';
 
 const Home = React.lazy(() => import('./pages/Home'));
 const Catalog = React.lazy(() => import('./pages/Catalog'));
 const News = React.lazy(() => import('./pages/News'));
 const Contacts = React.lazy(() => import('./pages/Contacts'));
+const ItemDetails = React.lazy(() => import('./ItemDetails/ItemDetails'));
+const SearchResults = React.lazy(() => import('./SearchResults/SearchResults'));
 
 export const App = () => {
   return (

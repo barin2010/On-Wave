@@ -2,7 +2,7 @@ import css from './Arrow.module.css';
 
 const NextArrow = ({ currentSlide, slideCount, ...props }) => {
   return (
-    <div {...props}>
+    <div className={css.arrowNext} {...props}>
       <svg
         className={css.arrowNext}
         alt="Next"

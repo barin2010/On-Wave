@@ -1,11 +1,16 @@
 .sliderContainer {
   width: clamp(20rem, 2.857rem + 85.714vi, 80rem);
   min-width: 320px;
+
   padding: 0 43.5px;
   margin-bottom: auto;
 }
 .imageContainer {
   min-width: 100px;
+  display: flex !important;
+  height: 66px;
+  align-items: center;
+  justify-content: center;
 }
 .partnersImage {
   width: 100px !important;
@@ -67,7 +72,6 @@
   }
   .customNextArrow {
     right: 10px;
-    
   }
 
   .customPrevArrow {

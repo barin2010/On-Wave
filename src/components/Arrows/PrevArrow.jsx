@@ -2,7 +2,7 @@ import css from './Arrow.module.css';
 
 const PrevArrow = ({ currentSlide, slideCount, ...props }) => {
   return (
-    <div {...props}>
+    <div className={css.arrowPrev} {...props}>
       <svg
         className={css.arrowPrev}
         alt="Prev"

@@ -1,7 +1,7 @@
 .arrowNext,
 .arrowPrev {
-  top: -120%;
-
+  /* top: -120%; */
+  top: 0;
   z-index: 1;
   cursor: pointer;
   position: absolute;
@@ -16,7 +16,7 @@
 }
 .arrowNext {
   transform: rotate(180deg);
-  left: -7px;
+  left: -20px;
 }
 .arrowPrev {
   left: 10px;

@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
             <ul className={css.socialList}>
               <li className={css.socialItem}>
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/" target="blank">
                   <svg
                     className={css.socialIcon}
                     width="20"
@@ -50,7 +50,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className={css.socialItem}>
-                <a href="http://www.facebook.com/">
+                <a href="http://www.facebook.com/" target="blank">
                   <svg
                     className={css.socialIcon}
                     width="10"
@@ -68,7 +68,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className={css.socialItem}>
-                <a href="https://ru.pinterest.com/">
+                <a href="https://ru.pinterest.com/" target="blank">
                   <svg
                     className={css.socialIcon}
                     width="15"
@@ -86,7 +86,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className={css.socialItem}>
-                <a href="https://x.com/?">
+                <a href="https://x.com/?" target="blank">
                   <svg
                     className={css.socialIconStroke}
                     width="26"
@@ -107,7 +107,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className={css.socialItem}>
-                <a href="https://www.youtube.com/">
+                <a href="https://www.youtube.com/" target="blank">
                   <svg
                     className={css.socialIconStroke}
                     width="29"

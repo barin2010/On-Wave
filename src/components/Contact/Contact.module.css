@@ -9,12 +9,15 @@
 }
 
 .contactInfo {
+  margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 40px;
 }
 
 .infoSection {
+  text-align: center;
   flex: 1;
   margin: 0 20px;
 }
@@ -67,4 +70,10 @@
 
 .submitButton:hover {
   background-color: #0056b3;
+}
+
+@media (min-width: 768px) {
+  .contactInfo {
+    flex-direction: row;
+  }
 }

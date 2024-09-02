@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import { nanoid } from 'nanoid';
 import css from './SearchResults.module.css';
 
 const images = {};
@@ -40,8 +41,8 @@ const SearchResults = () => {
               <div className={css.description}>
                 <p className={css.descriptionTitle}>Характеристики</p>
                 <ul className={css.descriptionList}>
-                  {item.characteristics.map((characteristic, index) => (
-                    <li className={css.descriptionItem} key={index}>
+                  {item.characteristics.map(characteristic => (
+                    <li className={css.descriptionItem} key={nanoid()}>
                       {characteristic}
                     </li>
                   ))}

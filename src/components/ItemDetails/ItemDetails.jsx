@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { nanoid } from 'nanoid';
 import css from './ItemDetails.module.css';
 import itemsData from '../../data/items.json';
 
@@ -43,8 +44,8 @@ const ItemDetails = () => {
           <div className={css.description}>
             <p className={css.descriptionTitle}>Характеристики</p>
             <ul className={css.descriptionList}>
-              {item.characteristics.map((characteristic, index) => (
-                <li className={css.descriptionItem} key={index}>
+              {item.characteristics.map(characteristic => (
+                <li className={css.descriptionItem} key={nanoid()}>
                   {characteristic}
                 </li>
               ))}

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/On-Wave/static/css/main.72bfc223.css",
-    "main.js": "/On-Wave/static/js/main.1291d821.js",
+    "main.css": "/On-Wave/static/css/main.b6b41686.css",
+    "main.js": "/On-Wave/static/js/main.55030357.js",
     "static/css/345.bedc2690.chunk.css": "/On-Wave/static/css/345.bedc2690.chunk.css",
     "static/js/345.b079ddec.chunk.js": "/On-Wave/static/js/345.b079ddec.chunk.js",
     "static/css/686.1473af74.chunk.css": "/On-Wave/static/css/686.1473af74.chunk.css",
@@ -10,7 +10,12 @@
     "static/js/41.0641b52d.chunk.js": "/On-Wave/static/js/41.0641b52d.chunk.js",
     "static/css/915.9559944e.chunk.css": "/On-Wave/static/css/915.9559944e.chunk.css",
     "static/js/915.fb265a19.chunk.js": "/On-Wave/static/js/915.fb265a19.chunk.js",
-    "static/js/605.2103e031.chunk.js": "/On-Wave/static/js/605.2103e031.chunk.js",
+    "static/css/798.d72941dc.chunk.css": "/On-Wave/static/css/798.d72941dc.chunk.css",
+    "static/js/798.35187405.chunk.js": "/On-Wave/static/js/798.35187405.chunk.js",
+    "static/css/297.7cf36e31.chunk.css": "/On-Wave/static/css/297.7cf36e31.chunk.css",
+    "static/js/297.3293b0fb.chunk.js": "/On-Wave/static/js/297.3293b0fb.chunk.js",
+    "static/js/2.3abccf1c.chunk.js": "/On-Wave/static/js/2.3abccf1c.chunk.js",
+    "static/js/68.72141e37.chunk.js": "/On-Wave/static/js/68.72141e37.chunk.js",
     "static/media/Montserrat-Bold.woff": "/On-Wave/static/media/Montserrat-Bold.180ba33d8de7dcfe80a0.woff",
     "static/media/Montserrat-Medium.woff": "/On-Wave/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff",
     "static/media/Montserrat-SemiBold.woff": "/On-Wave/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff",
@@ -66,8 +71,8 @@
     "static/media/engl.svg": "/On-Wave/static/media/engl.73e036e64582504ca6273f8f7008b495.svg",
     "static/media/cross.svg": "/On-Wave/static/media/cross.5c81e52873eb9972ca225d584189ced1.svg",
     "static/media/burger.svg": "/On-Wave/static/media/burger.b27ae2754d486e922e8414681ef743b6.svg",
-    "main.72bfc223.css.map": "/On-Wave/static/css/main.72bfc223.css.map",
-    "main.1291d821.js.map": "/On-Wave/static/js/main.1291d821.js.map",
+    "main.b6b41686.css.map": "/On-Wave/static/css/main.b6b41686.css.map",
+    "main.55030357.js.map": "/On-Wave/static/js/main.55030357.js.map",
     "345.bedc2690.chunk.css.map": "/On-Wave/static/css/345.bedc2690.chunk.css.map",
     "345.b079ddec.chunk.js.map": "/On-Wave/static/js/345.b079ddec.chunk.js.map",
     "686.1473af74.chunk.css.map": "/On-Wave/static/css/686.1473af74.chunk.css.map",
@@ -76,10 +81,15 @@
     "41.0641b52d.chunk.js.map": "/On-Wave/static/js/41.0641b52d.chunk.js.map",
     "915.9559944e.chunk.css.map": "/On-Wave/static/css/915.9559944e.chunk.css.map",
     "915.fb265a19.chunk.js.map": "/On-Wave/static/js/915.fb265a19.chunk.js.map",
-    "605.2103e031.chunk.js.map": "/On-Wave/static/js/605.2103e031.chunk.js.map"
+    "798.d72941dc.chunk.css.map": "/On-Wave/static/css/798.d72941dc.chunk.css.map",
+    "798.35187405.chunk.js.map": "/On-Wave/static/js/798.35187405.chunk.js.map",
+    "297.7cf36e31.chunk.css.map": "/On-Wave/static/css/297.7cf36e31.chunk.css.map",
+    "297.3293b0fb.chunk.js.map": "/On-Wave/static/js/297.3293b0fb.chunk.js.map",
+    "2.3abccf1c.chunk.js.map": "/On-Wave/static/js/2.3abccf1c.chunk.js.map",
+    "68.72141e37.chunk.js.map": "/On-Wave/static/js/68.72141e37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72bfc223.css",
-    "static/js/main.1291d821.js"
+    "static/css/main.b6b41686.css",
+    "static/js/main.55030357.js"
   ]
 }

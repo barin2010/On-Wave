@@ -18,28 +18,41 @@ const getImagePath = path => {
 };
 
 const ItemDetails = () => {
-  const { itemId } = useParams(); // Получаем ID из URL
-  const item = itemsData.find(item => item.id === itemId); // Ищем элемент по ID
+  const { itemId } = useParams();
+  const item = itemsData.find(item => item.id === itemId);
 
   if (!item) {
-    return <p>Item not found</p>; // Если элемент не найден
+    return <p>Item not found</p>;
   }
 
   return (
-    <div className={css.itemDetailsPage}>
-      <h1>{item.name}</h1>
-      <img
-        srcSet={`${getImagePath(item.images['1x'])} 1x, ${getImagePath(
-          item.images['2x']
-        )} 2x, ${getImagePath(item.images['3x'])} 3x`}
-        src={getImagePath(item.images['1x'])}
-        alt={item.name}
-        width="400"
-        height="740"
-      />
-      <p>{item.price}</p>
-      <p>{item.label}</p>
-      {item.quantity === 0 && <span className={css.soldOut}>Sold Out</span>}
+    <div className={css.itemDetails}>
+      <div className="container">
+        <div className={css.itemDetailsPage}>
+          <h1>{item.name}</h1>
+          <img
+            srcSet={`${getImagePath(item.images['1x'])} 1x, ${getImagePath(
+              item.images['2x']
+            )} 2x, ${getImagePath(item.images['3x'])} 3x`}
+            src={getImagePath(item.images['1x'])}
+            alt={item.name}
+            width="400"
+            height="740"
+          />
+          <p className={css.price}>{item.price}</p>
+          <div className={css.description}>
+            <p className={css.descriptionTitle}>Характеристики</p>
+            <ul className={css.descriptionList}>
+              {item.characteristics.map((characteristic, index) => (
+                <li className={css.descriptionItem} key={index}>
+                  {characteristic}
+                </li>
+              ))}
+            </ul>
+            <button className={css.button}>Buy</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

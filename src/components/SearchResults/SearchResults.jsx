@@ -26,7 +26,7 @@ const SearchResults = () => {
       <div className={css.wrapper}>
         {results.length > 0 ? (
           results.map(item => (
-            <div className={css.itemDetailsPage}>
+            <div className={css.itemDetailsPage} key={item.id}>
               <h1>{item.name}</h1>
               <img
                 srcSet={`${getImagePath(item.images['1x'])} 1x, ${getImagePath(
@@ -39,7 +39,7 @@ const SearchResults = () => {
               />
               <p className={css.price}>{item.price}</p>
               <div className={css.description}>
-                <p className={css.descriptionTitle}>Характеристики</p>
+                <p className={css.descriptionTitle}>Characteristics</p>
                 <ul className={css.descriptionList}>
                   {item.characteristics.map(characteristic => (
                     <li className={css.descriptionItem} key={nanoid()}>

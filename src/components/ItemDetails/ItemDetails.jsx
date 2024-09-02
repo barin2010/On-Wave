@@ -42,7 +42,7 @@ const ItemDetails = () => {
           />
           <p className={css.price}>{item.price}</p>
           <div className={css.description}>
-            <p className={css.descriptionTitle}>Характеристики</p>
+            <p className={css.descriptionTitle}>Characteristics</p>
             <ul className={css.descriptionList}>
               {item.characteristics.map(characteristic => (
                 <li className={css.descriptionItem} key={nanoid()}>

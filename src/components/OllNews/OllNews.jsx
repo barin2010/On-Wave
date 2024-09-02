@@ -8,43 +8,43 @@ const OllNews = () => {
         <div className={css.wrapper}>
           <div className={css.newsBlock}>
             <p className={css.title}>
-              Яку гітару вибрати: класичну, акустичну, електро, бас?
+              Which guitar to choose: classical, acoustic, electric, bass?
             </p>
             <p className={css.description}>
-              Світ музичних інструментів великий і неосяжний. Навіть
-              найдосвідченіший мультиінструменталіст володіє не більше 20%
-              існуючих інструментів в світі. На сьогоднішній день головне - не
-              кількість, а якість: якість інструментів, якість гри на них. Ми
-              коли-небудь поговоримо з вами і про інструментах народів крайньої
-              півночі, і про дивацтва звуковидобування в африканських
-              поселеннях, і навіть про струнних інструментах з натуральної шкіри
-              зі струнами з козячих жив. Але сьогодні ми розповімо про більш
-              стандартних і звичних для всіх інструментах - про гітари.
+              The world of musical instruments is vast and vast. Even the most
+              experienced multi-instrumentalist owns no more than 20% existing
+              tools in the world. To date, the main thing is not quantity, and
+              quality: the quality of instruments, the quality of playing them.
+              We someday we will talk with you about the tools of the peoples of
+              the extreme north, and about the oddities of sound production in
+              African settlements, and even about stringed instruments made of
+              genuine leather with goat gut strings. But today we will talk
+              about more standard and usual for all instruments - about guitars.
             </p>
           </div>
           <div className={css.newsBlock}>
-            <p className={css.title}>Як налаштувати гітару?</p>
+            <p className={css.title}>How to tune a guitar?</p>
             <p className={css.description}>
-              Ми не так давно додали в асортимент пропонуємої продукції нашого
-              інтернет магазину музичні інструменти. Одним з найбільш широко
-              представлених є гітара. У цьому огляді ми спробуємо відповісти на
-              питання, що цікавлять початківців гітаристів питання: Чому гітара
-              швидко розбудовується? Чи можна навчитися її налаштовувати в
-              будь-якій ситуації? Де взяти необхідні інструменти або можна
-              гітару налаштувати без спеціальних пристосувань?
+              Not so long ago, we added our products to the range of our
+              products musical instruments online store. One of the most widely
+              presented is a guitar. In this review, we will try to answer
+              questions that interest beginner guitarists: Why the guitar builds
+              quickly? Is it possible to learn how to configure it in any
+              situation? Where to get the necessary tools or you can tune the
+              guitar without special tools?
             </p>
           </div>
           <div className={css.newsBlock}>
             <p className={css.title}>
-              Яку гітару купити і де краще в магазині або через інтернет?
+              Which guitar to buy and where is better in a store or online?
             </p>
             <p className={css.description}>
-              Гітара - один з найпопулярніших музичних інструментів у світі, без
-              якого не обходиться практично жоден концерт, будь то рок, поп,
-              блюз, кантрі, романс або класична музика. Фронтмени більшості
-              музичних груп є гітаристами, а багато культових особистості зі
-              світу музики запам'яталися нам саме завдяки майстерному володінню
-              цим музичним інструментом.
+              The guitar is one of the most popular musical instruments in the
+              world, without which practically no concert, be it rock, pop,
+              blues, country, romance or classical music. Frontmen of the
+              majority musical groups are guitarists, and many iconic
+              personalities from the world of music was remembered by us
+              precisely because of mastery this musical instrument.
             </p>
           </div>
         </div>
